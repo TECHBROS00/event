@@ -1,7 +1,14 @@
+// {
+//   "compilerOptions": {
+//     "paths": {
+//       "@/*": ["./*"]
+//     }
+//   }
+// }
+
 {
-  "compilerOptions": {
-    "paths": {
-      "@/*": ["./*"]
-    }
+  "type": "module",
+  "scripts": {
+    "dev": "next dev"
   }
 }
